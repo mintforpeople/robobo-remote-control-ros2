@@ -1,0 +1,10 @@
+#JSGF V1.0;
+grammar movements;
+
+<starter> = rob;
+<direction> =front|back|up|down|right|left;
+<ending> = now;
+
+public <movements> = <starter> <direction> <ending>;
+
+

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mytechia:robobo-remote-control:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/robobo-remote-control-1.0.1.aar/021177451a7b1d767d67da74bb8dfd3b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/robobo-remote-control-1.0.1.aar/021177451a7b1d767d67da74bb8dfd3b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mytechia/robobo-remote-control/1.0.1/eb82c4d944b2085193db5ae8d5c6e8b23634cad1/robobo-remote-control-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3228fc8f-c730-4830-887a-a598f8b35658" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/libs/robobo_msgs-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/androidTest/java/com/mytechia/robobo/framework/remotecontrol/ros/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/AndroidNodeMainExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/IRosRemoteControlModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/NodeMainExecutorServiceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/RoboboNodeMainExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/RosRemoteControlModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/CommandNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/MovePanTiltService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/MoveWheelsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/PlaySoundService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/ResetWheelsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/SetCameraService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/SetEmotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/SetFrequencyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/SetLedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/services/TalkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/AStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/AccelerationStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/FlingStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/IRsStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/IStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/Int16StatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/Int32StatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/Int8StatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/LedStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/OrientationStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/StatusNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/StringStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/TapStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/UnlockMoveStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/UnlockTalkStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/topics/WheelsStatusTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros/util/NodeNameUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ros/src/test/java/com/mytechia/robobo/framework/remotecontrol/ros/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/src/androidTest/java/com/mytechia/robobo/framework/remotecontrol/ws/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/src/main/assets/remote.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/src/main/java/com/mytechia/robobo/framework/remotecontrol/ws/WebsocketRemoteControlModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control-ws/src/test/java/com/mytechia/robobo/framework/remotecontrol/ws/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/androidTest/java/com/mytechia/robobo/framework/remote_control/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/CommandQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/GsonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/ICommandExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/IRemoteControlModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/IRemoteControlProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/IRemoteListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/KeepAliveCommandExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/RemoteControlModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/SetSensorFrequencyCommandExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/java/com/mytechia/robobo/framework/remote_control/remotemodule/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../remote-control/src/test/java/com/mytechia/robobo/framework/remote_control/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="robobo-remote-control" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros2/Ros2RemoteControlModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="robobo-remote-control" type="1abcf292:AndroidViewProjectNode" />
+              <item name="remote_control_ros2" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="robobo-remote-control" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="robobo-remote-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robobo-remote-control" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3228fc8f-c730-4830-887a-a598f8b35658" name="Default Changelist" comment="" />
+      <created>1563869780805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563869780805</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3901454" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.329927" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" weight="0.32956383" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mytechia/robobo/framework/remotecontrol/ros2/Ros2RemoteControlModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

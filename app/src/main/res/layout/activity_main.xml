@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use as master"
+        android:id="@+id/checkUseAsMaster"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="10dp"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Master url:"
+        android:id="@+id/lblUrlMaster"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="http://localhost:11311"
+        android:id="@+id/txtUrlMaster"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:enabled="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi robot"
+        android:id="@+id/checkUseMultiRobot"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginTop="50dp"
+        android:checked="false" />
+
+    <TextView
+        android:id="@+id/lblRobotName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginTop="10dp"
+        android:layout_row="3"
+        android:text="@string/lbl_robobo_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtRobotName"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:enabled="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btnNext"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="50dp" />
+
+</GridLayout>

@@ -1,0 +1,7 @@
+#JSGF V1.0;
+grammar voicecontrol;
+
+
+public <order> = hi|do a trick|dance|hey rob;
+
+

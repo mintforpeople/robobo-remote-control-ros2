@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mytechia.robobo.framework.remotecontrol.ros2">
+    <uses-permission android:name="android.permission.INTERNET" />
+    </manifest>
+
+

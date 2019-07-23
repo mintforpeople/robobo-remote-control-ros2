@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">robobo-remote-control</string>
+    <string name="msg_custom_activity">127.0.0.1</string>
+    <string name="lbl_msg_custom_activity">Device ip:</string>
+    <string name="title_activity_main">Robobo ROS</string>
+    <string name="dialogWaitConnectionTitle">Connecting to Robobo Platform</string>
+    <string name="dialogWaitConnectionMsg">Please wait...</string>
+    <string name="title_warning_dialog">Robobo Framework Warning</string>
+    <string name="msg_bluetooth_is_disabled">Bluetooth is disabled</string>
+    <string name="msg_no_device_selected">No device selected</string>
+    <string name="lbl_robobo_name">Robobo Name:</string>
+</resources>
