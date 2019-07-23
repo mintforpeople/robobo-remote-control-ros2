@@ -1,25 +1,21 @@
 /*******************************************************************************
  *
- *   Copyright 2016 Mytech Ingenieria Aplicada <http://www.mytechia.com>
- *   Copyright 2016 Gervasio Varela <gervasio.varela@mytechia.com>
- *   Copyright 2016 Julio Gomez <julio.gomez@mytechia.com>
+ *   Copyright 2019, Manufactura de Ingenios Tecnológicos S.L. 
+ *   <http://www.mintforpeople.com>
  *
- *   This file is part of Robobo Ros Module.
+ *   Redistribution, modification and use of this software are permitted under
+ *   terms of the Apache 2.0 License.
  *
- *   Robobo Ros Module is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU Lesser General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
+ *   This software is distributed in the hope that it will be useful,
+ *   but WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND; without even the implied
+ *   warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *   Apache 2.0 License for more details.
  *
- *   Robobo Ros Module is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU Lesser General Public License for more details.
- *
- *   You should have received a copy of the GNU Lesser General Public License
- *   along with Robobo Ros Module.  If not, see <http://www.gnu.org/licenses/>.
+ *   You should have received a copy of the Apache 2.0 License along with    
+ *   this software. If not, see <http://www.apache.org/licenses/>.
  *
  ******************************************************************************/
+
 package com.mytechia.robobo.framework.remotecontrol.ros;
 
 

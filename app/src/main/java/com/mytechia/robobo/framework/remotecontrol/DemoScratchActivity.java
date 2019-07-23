@@ -1,25 +1,22 @@
-package com.mytechia.robobo.framework.remotecontrol;
-
 /*******************************************************************************
- * Copyright 2016 Mytech Ingenieria Aplicada <http://www.mytechia.com>
- * Copyright 2016 Luis Llamas <luis.llamas@mytechia.com>
- * <p>
- * This file is part of Robobo Remote Control Module.
- * <p>
- * Robobo Remote Control Module is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * <p>
- * Robobo Remote Control Module is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Lesser General Public License for more details.
- * <p>
- * You should have received a copy of the GNU Lesser General Public License
- * along with Robobo Remote Control Module.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *   Copyright 2019, Manufactura de Ingenios Tecnológicos S.L. 
+ *   <http://www.mintforpeople.com>
+ *
+ *   Redistribution, modification and use of this software are permitted under
+ *   terms of the Apache 2.0 License.
+ *
+ *   This software is distributed in the hope that it will be useful,
+ *   but WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND; without even the implied
+ *   warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *   Apache 2.0 License for more details.
+ *
+ *   You should have received a copy of the Apache 2.0 License along with    
+ *   this software. If not, see <http://www.apache.org/licenses/>.
+ *
  ******************************************************************************/
 
+package com.mytechia.robobo.framework.remotecontrol;
 
 import android.app.Activity;
 import android.app.AlertDialog;
