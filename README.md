@@ -28,10 +28,12 @@ https://index.ros.org/doc/ros2/
 https://github.com/ros2/ros1_bridge
 It could be a good approach run the bridge with the next option:
 `ros2 run ros1_bridge dynamic_bridge --bridge-all-topics`
+
 Additionally, follow the next repository instructions are necessary to create the compatibility between robobo_msgs from ROS and ROS2:
 https://github.com/ros2/ros1_bridge/blob/master/doc/index.rst
 
 3. Follow the next repository instructions that enables developers to write ```ROS2 applications for the JVM and Android.```
+
 https://github.com/esteve/ros2_java
 
 
@@ -50,10 +52,13 @@ https://github.com/mintforpeople/robobo-ros2-msgs
 
 Some examples to test from ROS2... you have to run the next commands from terminal:
 * To test `TalkSub` node:
+
 `ros2 topic pub -1 /talk robobo_msgs/TalkTopic “{text: {data: ‘hello’}}”`
 * To test TalkService node:
+
 `ros2 service call /talk robobo_msgs/Talk “{text: {data: ‘hello’}}” `
 * To test `UnlockTalkStatusTopic`:
+
 ` ros2 topic echo /unlock/talk `
 
 ***
