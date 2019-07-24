@@ -53,6 +53,12 @@ https://github.com/mintforpeople/robobo-ros2-msgs
 
 
 Some examples to test from ROS2... you have to run the next commands from terminal:
+* To test if the nodes are launched correctly:
+
+  `ros2 node list`
+* To view the topic list:
+
+  `ros2 topic list`
 * To test `TalkSub` node:
 
   `ros2 topic pub -1 /talk robobo_msgs/TalkTopic “{text: {data: ‘hello’}}”`
