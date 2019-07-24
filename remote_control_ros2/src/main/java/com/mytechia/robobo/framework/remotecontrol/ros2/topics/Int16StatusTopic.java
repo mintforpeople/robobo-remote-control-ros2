@@ -36,6 +36,8 @@
 
 package com.mytechia.robobo.framework.remotecontrol.ros2.topics;
 
+import android.util.Log;
+
 import com.mytechia.robobo.framework.remote_control.remotemodule.Status;
 
 import org.ros2.rcljava.publisher.Publisher;
@@ -81,10 +83,15 @@ public class Int16StatusTopic extends AStatusTopic {
             String value = status.getValue().get(this.valueKey);
 
             if (value != null) {
+                try {
+                    msg.setData(Short.parseShort(value));
 
-                msg.setData(Short.parseShort(value));
+                    this.topic.publish(msg);
+                    Log.d("INT16TOPIC","Received " +value);
 
-                this.topic.publish(msg);
+                }catch (NumberFormatException e){
+                    Log.e("INT16TOPIC","Bad number format, expected int16 received " +value);
+                }
 
             }
 
