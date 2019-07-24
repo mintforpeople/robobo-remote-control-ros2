@@ -20,9 +20,11 @@ This module has the hability to provide its own ROS Executor running on the robo
 To test and use the nodes there are multiple options:
 
 1. Install  ```ROS2```
+
 https://index.ros.org/doc/ros2/
 
 2. Use the ```ros1_bridge```
+
 https://github.com/ros2/ros1_bridge
 It could be a good approach run the bridge with the next option:
 `ros2 run ros1_bridge dynamic_bridge --bridge-all-topics`
@@ -38,8 +40,11 @@ In all the cases is necessary to create and generate a package with the required
 https://github.com/mintforpeople/robobo-ros2-msgs
 
 * To compile it (in the case 1 & 2):
+
 `colcon build --symlink-install --packages-select robobo_msgs `
+
 * And in the case 3:
+
 `ament build --symlink-install --isolated --only-packages robobo_msgs`
 
 
