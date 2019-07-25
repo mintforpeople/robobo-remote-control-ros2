@@ -59,15 +59,78 @@ Some examples to test from ROS2... you have to run the next commands from termin
 * To view the topic list:
 
   `ros2 topic list`
-* To test `TalkSub` node:
-
+* To test the subscribers nodes:
+  - MovePanTiltSub
+    `ros2 topic pub -1 /move_pan_tilt robobo_msgs/MovePanTiltTopic “{panpos: {data: ‘’}, panspeed: {data: ‘’} panunlockid: {data: ‘’} tiltpos: {data: ‘’} tiltspeed: {data: ‘’} tiltunlockid: {data: ‘’} }”`
+  - MoveWheelsSub
+    `ros2 topic pub -1 /move_wheels robobo_msgs/MoveWheelsTopic “{lspeed: {data: ‘’}, rspeed: {data: ‘’}, time: {data: ‘’}, unlockid: {data: ‘’}}”`
+  - PlaySoundSub
+    `ros2 topic pub -1 /play_sound robobo_msgs/PlaySoundTopic “{sound: {data: ‘’}}”`
+  - ResetWheelsSub
+    `ros2 topic pub -1 /reset_wheels robobo_msgs/ResetWheelsTopic `
+  - SetCameraSub
+    `ros2 topic pub -1 /set_camera robobo_msgs/SetCameraTopic “{camera: {data: ‘’}}”`
+  - SetEmotionSub
+    `ros2 topic pub -1 /set_emotion robobo_msgs/SetEmotionTopic “{emotion: {data: ‘’}}”`
+  - SetFrequencySub
+    `ros2 topic pub -1 /set_frequency robobo_msgs/SetSensorFrequencyTopic “{frequency: {data: ‘’}}”`
+  - SetLedSub
+  `ros2 topic pub -1 /set_led robobo_msgs/SetLedTopic “{id: {data: ‘1’}, color: {data: ‘blue’} }”`
+  - TalkSub
   `ros2 topic pub -1 /talk robobo_msgs/TalkTopic “{text: {data: ‘hello’}}”`
-* To test TalkService node:
-
+  
+* To test the services nodes:
+  - MovePanTiltService
+  `ros2 service call /move_pan_tilt robobo_msgs/MovePanTilt “{panpos: {data: ‘’}, panspeed: {data: ‘’} panunlockid: {data: ‘’} tiltpos: {data: ‘’} tiltspeed: {data: ‘’} tiltunlockid: {data: ‘’} }”`
+  - MoveWheelsService
+  `ros2 service call /move_wheels robobo_msgs/MoveWheels “{lspeed: {data: ‘’}, rspeed: {data: ‘’}, time: {data: ‘’}, unlockid: {data: ‘’}}”`
+  - PlaySoundService
+  `ros2 service call /play_sound robobo_msgs/PlaySound “{sound: {data: ‘’}}”`
+  - ResetWheelsService
+  `ros2 service call /reset_wheels robobo_msgs/ResetWheels `
+  - SetCameraService
+  `ros2 service call /set_camera robobo_msgs/SetCamera “{camera: {data: ‘’}}”`
+  - SetEmotionService
+  `ros2 service call /set_emotion robobo_msgs/SetEmotion “{emotion: {data: ‘’}}”`
+  - SetFrequencyService
+  `ros2 service call /set_frequency robobo_msgs/SetSensorFrequency “{frequency: {data: ‘’}}”`
+  - SetLedService
+  `ros2 service call /set_led robobo_msgs/SetLed “{id: {data: ‘’}, color: {data: ‘’} }”`
+  - TalkService
   `ros2 service call /talk robobo_msgs/Talk “{text: {data: ‘hello’}}” `
-* To test `UnlockTalkStatusTopic`:
-
+  
+* To test the publishers nodes:
+  - AccelerationStatusTopic
+  ` ros2 topic echo /accel `
+  - FlingStatusTopic
+  ` ros2 topic echo /fling `
+  - BaseBatteryStatusTopic
+  ` ros2 topic echo /battery/base `
+  - PhoneBatteryStatusTopic
+  ` ros2 topic echo /battery/phone `
+  - PanStatusTopic
+  ` ros2 topic echo /pan `
+  - TiltStatusTopic
+  ` ros2 topic echo /tilt `
+  - AmbientLightStatusTopic
+  ` ros2 topic echo /ambientlight `
+  - IRsStatusTopic
+  ` ros2 topic echo /irs `
+  - LedStatusTopic
+  ` ros2 topic echo /leds `
+  - OrientationStatusTopic
+  ` ros2 topic echo /orientation `
+  - StringStatusTopic
+  ` ros2 topic echo /emotion `
+  - TapStatusTopic
+  ` ros2 topic echo /tap `
+  - UnlockWheelsStatusTopic
+  ` ros2 topic echo /unlock/move `
+  - UnlockTalkStatusTopic
   ` ros2 topic echo /unlock/talk `
+  - WheelsStatusTopic
+  ` ros2 topic echo /wheels `
+
 
 ***
 <!--
