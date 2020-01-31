@@ -133,7 +133,7 @@ Some examples to test from ROS2... you have to run the next commands from termin
   - TagStatusTopic
   ` ros2 topic echo /tag `
   - DetectedObjectStatusTopic
-  ` ros2 topic echo /detectec_object `
+  ` ros2 topic echo /detected_object `
 
 
 ## Acknowledgement
