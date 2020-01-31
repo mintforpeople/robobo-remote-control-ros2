@@ -130,6 +130,10 @@ Some examples to test from ROS2... you have to run the next commands from termin
   ` ros2 topic echo /unlock/talk `
   - WheelsStatusTopic
   ` ros2 topic echo /wheels `
+  - TagStatusTopic
+  ` ros2 topic echo /tag `
+  - DetectedObjectStatusTopic
+  ` ros2 topic echo /detectec_object `
 
 
 ## Acknowledgement
